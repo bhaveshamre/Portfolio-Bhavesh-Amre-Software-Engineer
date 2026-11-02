@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgRanger" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140f1a"/>
+      <stop offset="100%" stop-color="#24142e"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgRanger)"/>
+
+  <!-- Center Security Shield -->
+  <g transform="translate(400, 240)">
+    <!-- Outer Shield Glow -->
+    <path d="M 0 -130 L 110 -60 V 40 C 110 110, 0 160, 0 160 C 0 160, -110 110, -110 40 V -60 Z" fill="none" stroke="#f43f5e" stroke-width="2" opacity="0.4"/>
+
+    <!-- Inner Shield -->
+    <path d="M 0 -115 L 95 -50 V 35 C 95 98, 0 142, 0 142 C 0 142, -95 98, -95 35 V -50 Z" fill="url(#shieldGrad)"/>
+
+    <!-- Keyhole / Security Zone Icon -->
+    <circle cx="0" cy="-15" r="24" fill="#ffffff" opacity="0.95"/>
+    <path d="M -12 -5 L 12 -5 L 18 35 L -18 35 Z" fill="#ffffff" opacity="0.95"/>
+
+    <!-- Left Badge: 30+ JIRA Fixes -->
+    <g transform="translate(-230, -30)">
+      <rect x="-85" y="-24" width="170" height="48" rx="10" fill="#1e1826" stroke="#fb7185" stroke-width="1.5"/>
+      <text text-anchor="middle" y="5" font-family="'Syne', sans-serif" font-weight="700" font-size="14" fill="#fb7185">30+ JIRA Fixes</text>
+    </g>
+
+    <!-- Right Badge: JDK 17 Migration -->
+    <g transform="translate(230, -30)">
+      <rect x="-85" y="-24" width="170" height="48" rx="10" fill="#1e1826" stroke="#38bdf8" stroke-width="1.5"/>
+      <text text-anchor="middle" y="5" font-family="'Syne', sans-serif" font-weight="700" font-size="14" fill="#38bdf8">JDK 17 Migration</text>
+    </g>
+
+    <!-- Left Bottom: CVE Remediation -->
+    <g transform="translate(-210, 70)">
+      <rect x="-85" y="-20" width="170" height="40" rx="8" fill="#1e1826" stroke="#f59e0b" stroke-width="1.5"/>
+      <text text-anchor="middle" y="5" font-family="'DM Sans', sans-serif" font-weight="600" font-size="12" fill="#fcd34d">CVE Remediation</text>
+    </g>
+
+    <!-- Right Bottom: 15+ Plugins Tested -->
+    <g transform="translate(210, 70)">
+      <rect x="-85" y="-20" width="170" height="40" rx="8" fill="#1e1826" stroke="#34d399" stroke-width="1.5"/>
+      <text text-anchor="middle" y="5" font-family="'DM Sans', sans-serif" font-weight="600" font-size="12" fill="#6ee7b7">15+ Plugin Suites</text>
+    </g>
+  </g>
+
+  <!-- Title Top -->
+  <text x="40" y="50" font-family="'Syne', sans-serif" font-weight="800" font-size="20" fill="#ffffff" letter-spacing="1">APACHE RANGER (ASF)</text>
+  <text x="40" y="74" font-family="'DM Sans', sans-serif" font-weight="500" font-size="13" fill="#94a3b8">Enterprise Authorization &amp; Security Zones · Open Source Contributions</text>
+</svg>

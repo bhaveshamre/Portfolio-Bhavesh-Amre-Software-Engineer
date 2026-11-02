@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSDR" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#151b2b"/>
+    </linearGradient>
+    <linearGradient id="glowNode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgSDR)"/>
+
+  <!-- Background decorative circuits -->
+  <g stroke="#1e293b" stroke-width="1.5" opacity="0.6">
+    <path d="M 50 150 H 200 V 280 H 350"/>
+    <path d="M 450 280 H 600 V 160 H 750"/>
+    <path d="M 200 420 H 600"/>
+    <circle cx="200" cy="280" r="4" fill="#6366f1"/>
+    <circle cx="600" cy="160" r="4" fill="#8b5cf6"/>
+  </g>
+
+  <!-- Flow Steps -->
+  <!-- Step 1: Lead Enrichment -->
+  <g transform="translate(140, 240)">
+    <rect x="-90" y="-45" width="180" height="90" rx="12" fill="#111827" stroke="#3b82f6" stroke-width="2"/>
+    <text text-anchor="middle" y="-12" font-family="'Syne', sans-serif" font-weight="700" font-size="13" fill="#60a5fa">STAGE 01</text>
+    <text text-anchor="middle" y="10" font-family="'DM Sans', sans-serif" font-weight="700" font-size="15" fill="#f8fafc">Lead Enrichment</text>
+    <text text-anchor="middle" y="28" font-family="'DM Sans', sans-serif" font-weight="400" font-size="11" fill="#94a3b8">Multi-Agent Scraping</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M 230 240 H 290" stroke="#60a5fa" stroke-width="2.5" marker-end="url(#arrow)" stroke-dasharray="4,4"/>
+
+  <!-- Step 2: ICP Qualification & RAG -->
+  <g transform="translate(400, 240)">
+    <rect x="-90" y="-45" width="180" height="90" rx="12" fill="#111827" stroke="#8b5cf6" stroke-width="2"/>
+    <text text-anchor="middle" y="-12" font-family="'Syne', sans-serif" font-weight="700" font-size="13" fill="#a78bfa">STAGE 02</text>
+    <text text-anchor="middle" y="10" font-family="'DM Sans', sans-serif" font-weight="700" font-size="15" fill="#f8fafc">RAG &amp; Guardrails</text>
+    <text text-anchor="middle" y="28" font-family="'DM Sans', sans-serif" font-weight="400" font-size="11" fill="#94a3b8">Confidence-Based ICP</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M 490 240 H 550" stroke="#8b5cf6" stroke-width="2.5" stroke-dasharray="4,4"/>
+
+  <!-- Step 3: Human-in-the-loop Outreach -->
+  <g transform="translate(660, 240)">
+    <rect x="-90" y="-45" width="180" height="90" rx="12" fill="#111827" stroke="#ec4899" stroke-width="2"/>
+    <text text-anchor="middle" y="-12" font-family="'Syne', sans-serif" font-weight="700" font-size="13" fill="#f472b6">STAGE 03</text>
+    <text text-anchor="middle" y="10" font-family="'DM Sans', sans-serif" font-weight="700" font-size="15" fill="#f8fafc">Personalized Outreach</text>
+    <text text-anchor="middle" y="28" font-family="'DM Sans', sans-serif" font-weight="400" font-size="11" fill="#94a3b8">HITL Approval Flow</text>
+  </g>
+
+  <!-- Trace pill bottom -->
+  <g transform="translate(400, 390)">
+    <rect x="-170" y="-18" width="340" height="36" rx="18" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5"/>
+    <text text-anchor="middle" y="5" font-family="'DM Sans', sans-serif" font-weight="600" font-size="12" fill="#c7d2fe">LangGraph · pgvector · Gemini API · Redis Traces</text>
+  </g>
+
+  <!-- Title Top -->
+  <text x="40" y="50" font-family="'Syne', sans-serif" font-weight="800" font-size="20" fill="#ffffff" letter-spacing="1">AGENT SDR</text>
+  <text x="40" y="74" font-family="'DM Sans', sans-serif" font-weight="500" font-size="13" fill="#94a3b8">Autonomous Lead Qualification &amp; Outreach · Multi-Agent RAG</text>
+</svg>
