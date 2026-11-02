@@ -1,12 +1,12 @@
-# Bhavesh Amre — Java Backend Engineer Portfolio
+# Bhavesh Amre — Software Engineer / Java Backend Engineer Portfolio
 
-> Portfolio website for **Bhavesh Amre**, Java Backend Engineer specializing in real-time, distributed systems, Spring Boot, WebSocket streaming, microservices, and Apache Ranger open-source contributions.
+> Portfolio website for **Bhavesh Amre**, Software Engineer / Java Backend Engineer specializing in real-time, distributed systems, Spring Boot, WebSocket streaming, microservices, and Apache Ranger open-source contributions.
 
 ---
 
 ## 👨‍💻 About
 
-Java Backend Engineer building real-time, distributed systems in production. Experienced with Java 17, Spring Boot, WebSocket streaming, microservices, and event-driven architectures.
+Software Engineer / Java Backend Engineer building real-time, distributed systems in production. Experienced with Java 17, Spring Boot, WebSocket streaming, microservices, and event-driven architectures.
 - **Production Systems**: Shipped live F&O analytics platform (`FNOPercy`) handling high-frequency market data pipelines.
 - **Open Source**: Contributed to Apache Software Foundation (`Apache Ranger`) with 30+ JIRA fixes, JDK 17 migration, and CVE remediation.
 - **Microservices**: Architected an 8-microservice platform (`Urban Radius`) utilizing the Transactional Outbox Pattern and Kafka.
