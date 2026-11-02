@@ -4,6 +4,9 @@
 # Temporary setup scripts
 *.bat
 
+# Local development server
+server.js
+
 # OS files
 .DS_Store
 Thumbs.db
