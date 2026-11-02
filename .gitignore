@@ -1,0 +1,9 @@
+# Git migration artifact
+.git_portfolio/
+
+# Temporary setup scripts
+*.bat
+
+# OS files
+.DS_Store
+Thumbs.db
